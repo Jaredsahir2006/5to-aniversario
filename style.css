@@ -1,0 +1,133 @@
+body{
+	background-image: url( );
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    overflow: hidden; /* Evita el scroll */
+}
+
+.container {
+    perspective: 250px;
+    width: 360px; /* Aumenta el ancho del contenedor */
+    height: 200px; /* Aumenta la altura del contenedor */
+    position: relative;
+    z-index: 1; /* Asegúrate de que el contenedor esté por encima del fondo */
+}
+
+.tarjeta {
+    width: 110px; /* Aumenta el ancho de las tarjetas */
+    height: 150px; /* Aumenta la altura de las tarjetas */
+    background-color: rgba(68, 34, 34, 0.8); /* Color de fondo semi-transparente */
+    font-size: 50px;
+    position: absolute;
+    top: 43px; /* Ajusta la posición vertical */
+    left: 125px; /* Ajusta la posición horizontal */
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    animation: Carrusel 10.5s linear infinite; /* Aumenta la duración de la animación a 14 segundos */
+}
+
+@keyframes Carrusel {
+    from {
+        transform: rotateY(360deg) translateZ(200px); /* Ajusta el valor de translateZ */
+        z-index: 10;
+        opacity: 0.9;
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        transform: rotateX(0deg) translateZ(200px) rotateX(0deg); /* Ajusta el valor de translateZ */
+        z-index: 10;
+    }
+}
+
+#all_for_one {
+    background-image: url(img/jared.jpg);
+    background-size: cover;
+}
+
+#all_for_one:hover {
+    box-shadow: 0px 0px 10px yellow;
+}
+
+#shigaraki {
+    background-image: url(img/4.jpg);
+    background-size: cover;
+    animation-delay: -1.5s;
+}
+
+#shigaraki:hover {
+    box-shadow: 0px 0px 10px rgb(225, 0, 255);
+}
+
+#all_might {
+    background-image: url(img/foto2.jpeg);
+    background-size: cover;
+    animation-delay: -3s;
+}
+
+#all_might:hover {
+    box-shadow: 0px 0px 10px rgb(0, 102, 255);
+}
+
+
+#Red_Riot {
+    background-image: url(img/2.jpeg);
+    background-size: cover;
+    animation-delay: -4.5s;
+}
+
+#Red_Riot:hover {
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+#todoroki {
+    background-image: url(img/1.jpeg);
+    background-size: cover;
+    animation-delay: -6s;
+}
+
+#todoroki:hover {
+    box-shadow: 0px 0px 10px rgb(255, 166, 0);
+}
+
+#deku {
+    background-image: url(img/foto.jpeg);
+    background-size: cover;
+    animation-delay: -7.5s;
+}
+
+#deku:hover {
+    box-shadow: 0px 0px 10px rgb(0, 255, 128);
+}
+
+#bakugo {
+    background-image: url(img/xd.jpeg);
+    background-size: cover;
+    animation-delay: -9s;
+}
+
+#bakugo:hover {
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+.tarjeta h3 {
+    color: white;
+    font-size: 10px; /* Aumenta el tamaño de la fuente */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px; /* Ajusta el margen superior */
+    background-color: #ff0000;
+}
