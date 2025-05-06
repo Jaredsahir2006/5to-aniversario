@@ -55,7 +55,7 @@ body {
 }
 
 #all_for_one {
-    background-image: url(img/jared.jpg);
+    background-image: url(/jared.jpg);
     background-size: cover;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 #shigaraki {
-    background-image: url(img/4.jpg);
+    background-image: url(/4.jpg);
     background-size: cover;
     animation-delay: -1.5s;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 #all_might {
-    background-image: url(img/foto2.jpeg);
+    background-image: url(/foto2.jpeg);
     background-size: cover;
     animation-delay: -3s;
 }
@@ -85,7 +85,7 @@ body {
 
 
 #Red_Riot {
-    background-image: url(img/2.jpeg);
+    background-image: url(/2.jpeg);
     background-size: cover;
     animation-delay: -4.5s;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 #todoroki {
-    background-image: url(img/1.jpeg);
+    background-image: url(/1.jpeg);
     background-size: cover;
     animation-delay: -6s;
 }
@@ -105,7 +105,7 @@ body {
 }
 
 #deku {
-    background-image: url(img/foto.jpeg);
+    background-image: url(/foto.jpeg);
     background-size: cover;
     animation-delay: -7.5s;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 #bakugo {
-    background-image: url(img/xd.jpeg);
+    background-image: url(/xd.jpeg);
     background-size: cover;
     animation-delay: -9s;
 }
